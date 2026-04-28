@@ -1,3 +1,7 @@
+"""
+* @author gaurang mane
+"""
+
 test_str= str(input("Enter a string: "))
 print("Original String: " + test_str)
 print("\nReversed String: " + test_str[::-1])

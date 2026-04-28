@@ -1,3 +1,6 @@
+"""
+* @author gaurang mane
+"""
 print("\n---ENTER THREE NUMBERS---")
 #there are several methods to find max among three numbers
 #here are a few of them

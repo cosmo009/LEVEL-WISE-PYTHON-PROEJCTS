@@ -1,0 +1,7 @@
+"""
+* @author gaurang mane
+"""
+'''
+#THIS IS A SIMPLE INTEREST CALCULATOR BASICALLY USIGN A FORMULA TO SOLVE SOME SIMPLE 5TH GRADE MATHS
+ik it's pretty stupid
+'''

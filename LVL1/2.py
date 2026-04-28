@@ -1,4 +1,7 @@
 
+"""
+* @author gaurang mane
+"""
 #MUCH SIMPLER BASIC CALCII
 power = True
 while(power):

@@ -1,7 +1,7 @@
 """
 * This program is a temperatur converter using a menu system
-* author gaurang mane
-* date 25.04.2026
+* @author gaurang mane
+* @date 25.04.2026
 """
 choice = 0
 while (True and choice!=3):

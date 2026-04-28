@@ -1,7 +1,7 @@
 """
 * This program is a display of mulitple methods to swap two variables
-* author gaurang mane
-* date 25.04.2026
+* @author gaurang mane
+* @date 25.04.2026
 """
 
 #lets take some user input to make it fun and interactive
