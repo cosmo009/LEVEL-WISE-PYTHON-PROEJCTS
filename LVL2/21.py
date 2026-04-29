@@ -17,13 +17,21 @@ def reverse_word_order(string):
         #cursor_start will store WORD index
         #cursor_end will store SPACE index
         
+        #IF THE join method didnt exist (like in other languages) then we would've to create the method
+        '''
+        def join(lis1[]):
+            temp = ""
+            for i in lis1:
+                temp+=i
+            return temp
+        '''
 
         if(string[cursor_start]==" " or cursor_start==0): 
             rev.append(string[cursor_start:cursor_end+1])
             cursor_end=cursor_start
     return temp.join(rev)
 
-            
+
 
 """
 * THIS PROGRAM REVERSES STRINGS USING FUNCTIONS
