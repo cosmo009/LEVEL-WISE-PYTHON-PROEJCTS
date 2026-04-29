@@ -1,24 +1,30 @@
 """
-* THIS PROGRAM PRINTS MULTIPLICATION TABLE(s)
+* THIS PROGRAM SHOWS DIFFERENT WAYS TO FIND SUM OF N NUMBERS
 * @author gaurang mane
 * @date 29.04.2026
 """
 power = True
 while power:
 
-    print("\n---MULTIPLICATION TABLES---\n")
+    print("\n---SUM OF N NUMBERS---\n")
 
     while True:
         try:
-            table = float(input("enter the required multiplication table: "))
+            n = int(input("enter number to find sum of integers upto: "))
             break
         except ValueError:
             print("INVALID INPUT TRY AGAIN")
-        
-    print("\n")
-    for i in range(1,11):
-        print(f"{table} x {i} = {table*i}")
+
+    sum = 0
+
+    #METHOD 1 - LOOPS
+    for i in range(n+1): sum+=i
     
+    #METHOD 2 - FORMULA
+    sum = n*(n+1)/2
+
+    print(f"\n SUM OF {n} integers = {sum}")
+
     while True:
         try:
             ask = input("\nRUN AGAIN? (Y/N): ").upper()
