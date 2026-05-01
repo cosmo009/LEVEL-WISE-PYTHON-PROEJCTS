@@ -36,7 +36,7 @@ while power:
 
     str1 = input("Give me a string and i'll count the words: ")
     count = word_counter(str1)
-    print(count)
+    print("Word count = "+count)
 
     while True:
         try:
